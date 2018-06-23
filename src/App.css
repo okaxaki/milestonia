@@ -1,0 +1,62 @@
+.App {
+  text-align: initial;
+  background-color: white;
+}
+
+.App-header {
+  position: relative;
+  text-align: center;
+  background-color: #3c4146;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 84px;
+  margin:0;
+  padding:0;
+}
+
+.App-header-content {
+  position: absolute;
+  width: 900px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.App-header-rightbox {
+  position: absolute;
+  top:26px;
+  right:20px;
+  bottom:26px;
+  color: white;
+}
+
+.App-header-rightbox .material-icons {
+  font-size: 32px;
+}
+
+.App-title {
+  margin: 0;
+  text-align: left;
+  color: white;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.App-main {
+  width: 900px;
+  margin: auto;
+  padding: 40px 40px 40px 40px;
+}
+
+.App .icon-button {
+  cursor: pointer;
+}
+
+.App .icon-button:hover {
+  opacity: 0.5;
+}
